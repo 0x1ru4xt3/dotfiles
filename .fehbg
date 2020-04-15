@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-scale '/home/jon/Imágenes/wallpapers/lainotua3.jpg'
