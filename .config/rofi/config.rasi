@@ -1,0 +1,4 @@
+configuration {
+	terminal: "/bin/terminator";
+	theme: "/usr/share/rofi/themes/Monokai.rasi";
+}

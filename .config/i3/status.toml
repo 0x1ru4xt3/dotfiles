@@ -1,0 +1,42 @@
+theme = "solarized-dark"
+icons = "awesome"
+
+[[block]]
+block = "memory"
+display_type = "memory"
+format_mem = "{Mup}%"
+format_swap = "{SUp}%"
+
+[[block]]
+block = "cpu"
+interval = 1
+
+[[block]]
+block = "bluetooth"
+mac = "18:04:21:27:0A:15"
+label = " Bluedio"
+
+[[block]]
+block = "bluetooth"
+mac = "F8:54:B8:98:C0:F2"
+label = " Echo Dot"
+
+[[block]]
+block = "xrandr"
+icons = true
+resolution = true
+interval = 2
+
+[[block]]
+block = "sound"
+
+[[block]]
+block = "battery"
+interval = 1
+format = "{percentage}%"
+device = "BAT1"
+
+[[block]]
+block = "time"
+interval = 60
+format = "%d/%m %R"
